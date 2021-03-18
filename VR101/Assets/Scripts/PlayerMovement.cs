@@ -28,8 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
 
         //karakterin hareketi
-        float walk_speed = 2f;
-        float run_speed = 4f;
+        float walk_speed = 20f;
+        float run_speed = 40f;
 
         if (Input.GetKey("left shift"))
         {
