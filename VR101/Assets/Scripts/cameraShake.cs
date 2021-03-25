@@ -9,7 +9,7 @@ public class cameraShake : MonoBehaviour
     public float sallanmasuresi;
     public float sallanmamiktari;
     public float azalmamiktari;
-    private void awake()
+    private void Awake()
     {
         camTransform = GetComponent<Transform>();
     }
